@@ -15,7 +15,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 東京都 新型コロナウイルス感染症対策サイト',
+    titleTemplate: '%s | 石川県（非公式）新型コロナウイルス感染症対策サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,9 +23,9 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://stopcovid19-ishikawa.netlify.com'
       },
-      {
+/*      {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image'
@@ -44,7 +44,7 @@ const config: Configuration = {
         hid: 'fb:app_id',
         property: 'fb:app_id',
         content: '2879625188795443'
-      },
+    },*/
       {
         hid: 'note:card',
         property: 'note:card',
@@ -117,7 +117,7 @@ const config: Configuration = {
     }
   },
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID // .env.production などに設定してください。
+    id: 'UA-163115015-1' // .env.production などに設定してください。
   },
   optionalCookies: [
     {
@@ -158,7 +158,7 @@ const config: Configuration = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '東京都 新型コロナウイルス感染症対策サイト',
+    name: '石川県（非公式）新型コロナウイルス感染症対策サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
