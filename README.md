@@ -16,7 +16,7 @@ Issues にあるいろいろな修正にご協力いただけると嬉しいで�
 
 ## 元のサイト
 ### 【東京都】新型コロナウイルス感染症対策サイト
-[サイトへのリンク](https://stopcovid19.metro.tokyo.lg.jp/)
+[サイトへのリンク](https://stopcovid19-ishikawa.netlify.com)
 [GitHubへのリンク](https://github.com/tokyo-metropolitan-gov/covid19)
 
 ## 元のサイトから派生したサイト
@@ -93,7 +93,7 @@ $ docker-compose run --rm app yarn install
 
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19.metro.tokyo.lg.jp/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19-ishikawa.netlify.com が更新されます。
 
 `staging` ブランチがアップデートされると、自動的に `gh-pages` ブランチにHTML類がbuildされます。そして、ステージングサイト https://stg-covid19-tokyo.netlify.com/ が更新されます。
 
@@ -113,11 +113,11 @@ Pull Request を送る際の branch は、以下のネーミングルールで�
 | 開発 | development | https://dev-covid19-tokyo.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
 | 緊急適用用 | dev-hotfix | なし | 急ぎ本番に適用するべき修正。管理者から依頼された場合こちらを使ってください |
 | ステージング | staging | https://stg-covid19-tokyo.netlify.com/ | 本番前の最終確認用。管理者以外の Pull Request は禁止です |
-| 本番 | master | https://stopcovid19.metro.tokyo.lg.jp/ | 管理者以外の Pull Request は禁止です |
+| 本番 | master | https://stopcovid19-ishikawa.netlify.com | 管理者以外の Pull Request は禁止です |
 
 #### システムで利用しているブランチ
 | 目的 | ブランチ | 確認URL | 備考 |
 | ---- | -------- | ---- | ---- |
-| 本番サイトHTML | production | https://stopcovid19.metro.tokyo.lg.jp/ | 静的ビルドされたHTMLが置いてある場所 |
+| 本番サイトHTML | production | https://stopcovid19-ishikawa.netlify.com | 静的ビルドされたHTMLが置いてある場所 |
 | ステージングサイト HTML | gh-pages | https://stg-covid19-tokyo.netlify.com/ | 静的ビルドされたHTMLが置いてある場所 |
 | OGP作業用 | deploy/new_ogp | なし | OGPの更新用 |
