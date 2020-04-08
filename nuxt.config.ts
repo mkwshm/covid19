@@ -159,7 +159,7 @@ const config: Configuration = {
   },
   manifest: {
     name: '石川県（非公式）新型コロナウイルス感染症対策サイト',
-    theme_color: '#00a040',
+    theme_color: '#0088bb',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
