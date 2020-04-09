@@ -25,26 +25,26 @@ const config: Configuration = {
         property: 'og:url',
         content: 'https://stopcovid19-ishikawa.netlify.com'
       },
-/*      {
-        hid: 'twitter:card',
-        name: 'twitter:card',
-        content: 'summary_large_image'
-      },
-      {
-        hid: 'twitter:site',
-        name: 'twitter:site',
-        content: '@tokyo_bousai'
-      },
-      {
-        hid: 'twitter:creator',
-        name: 'twitter:creator',
-        content: '@tokyo_bousai'
-      },
-      {
-        hid: 'fb:app_id',
-        property: 'fb:app_id',
-        content: '2879625188795443'
-    },*/
+//      {
+//        hid: 'twitter:card',
+//        name: 'twitter:card',
+//        content: 'summary_large_image'
+//      },
+//      {
+//        hid: 'twitter:site',
+//        name: 'twitter:site',
+//        content: '@tokyo_bousai'
+//      },
+//      {
+//        hid: 'twitter:creator',
+//        name: 'twitter:creator',
+//        content: '@tokyo_bousai'
+//      },
+//      {
+//        hid: 'fb:app_id',
+//        property: 'fb:app_id',
+//        content: '2879625188795443'
+//      },
       {
         hid: 'note:card',
         property: 'note:card',
