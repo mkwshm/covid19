@@ -24,7 +24,9 @@
             <p class="PrintMeta-Text">
               {{ $t('※最新の情報はWebページをご覧ください') }}
             </p>
-            <p class="PrintMeta-Link">https://stopcovid19-ishikawa.netlify.com</p>
+            <p class="PrintMeta-Link">
+              https://stopcovid19-ishikawa.netlify.com
+            </p>
           </div>
         </div>
       </div>
