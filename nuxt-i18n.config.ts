@@ -1,15 +1,10 @@
 export default {
   strategy: 'prefix_except_default',
   detectBrowserLanguage: {
-<<<<<<< HEAD
-    // useCookie: true,
-    // cookieKey: 'i18n_redirected'
-=======
     /*
     useCookie: true,
     cookieKey: 'i18n_redirected'
     */
->>>>>>> 5d18f7c47574b6b34b7f14a284d53b7575c3120b
   },
   defaultLocale: 'ja',
   vueI18n: {
@@ -29,11 +24,7 @@ export default {
     }
     /*
     {
-<<<<<<< HEAD
-       code: 'en',
-=======
       code: 'en',
->>>>>>> 5d18f7c47574b6b34b7f14a284d53b7575c3120b
       name: 'English',
       iso: 'en-US',
       file: 'en.json',
@@ -75,11 +66,7 @@ export default {
       iso: 'ja-JP',
       file: 'ja-Hira.json',
       description: 'Easy Japanese'
-<<<<<<< HEAD
-    } */
-=======
     }
     */
->>>>>>> 5d18f7c47574b6b34b7f14a284d53b7575c3120b
   ]
 }
