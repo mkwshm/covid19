@@ -2,7 +2,7 @@
   <v-app class="app-print">
     <div v-if="loading" class="loader">
       <img src="/logo.png" :alt="$t('石川県')" />
-      <scale-loader color="#00A040" />
+      <scale-loader color="#0088bb" />
     </div>
     <div v-else class="print-container">
       <div class="PrintMeta">
