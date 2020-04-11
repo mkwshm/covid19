@@ -23,6 +23,10 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5d18f7c47574b6b34b7f14a284d53b7575c3120b
       - run: yarn install --frozen-lockfile
       - run: yarn run test
       - run: yarn run generate --fail-on-page-error

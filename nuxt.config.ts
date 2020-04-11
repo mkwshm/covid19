@@ -46,7 +46,11 @@ const config: Configuration = {
         property: 'fb:app_id',
         content: '2879625188795443'
       },
+<<<<<<< HEAD
       */
+=======
+     */
+>>>>>>> 5d18f7c47574b6b34b7f14a284d53b7575c3120b
       {
         hid: 'note:card',
         property: 'note:card',
