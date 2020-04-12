@@ -17,7 +17,7 @@
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
+              $t('menu/対策サイト(非公式)')
             }}
           </div>
         </nuxt-link>
@@ -143,7 +143,7 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
+          title: this.$t('石川県の最新感染動向'),
           link: this.localePath('/')
         },
         {
@@ -159,8 +159,8 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          title: this.$t('県民の皆様へ'),
+          link: 'https://https://www.pref.ishikawa.lg.jp/kansen/corona.html'
         },
         {
           icon: 'mdi-domain',
@@ -169,19 +169,22 @@ export default Vue.extend({
           divider: true
         },
         {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
-          link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
+          icon: 'mdi-domain',
+          title: this.$t('経営に影響を受けている事業者の皆様へ'),
+          link: 'https://www.pref.ishikawa.lg.jp/kinyuu/kinyuu/korona.html',
+          divider: true
         },
         {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
+          title: this.$t('石川県都新型コロナウイルス感染症対策本部'),
+          link: 'https://www.pref.ishikawa.lg.jp/kansen/coronataisakuhonbu.html'
+        },
+        {
+          title: this.$t('石川県主催等 中止又は延期するイベント等'),
+          link: 'https://www.pref.ishikawa.lg.jp/kenmin/kouhou/eventcancel.html'
         },
         {
           title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+          link: 'https://www.pref.ishikawa.lg.jp/chiji/kisya.html'
         },
         {
           title: this.$t('当サイトについて'),
@@ -192,8 +195,8 @@ export default Vue.extend({
           link: this.localePath('/contacts')
         },
         {
-          title: this.$t('東京都公式ホームページ'),
-          link: 'https://www.metro.tokyo.lg.jp/'
+          title: this.$t('石川県公式ホームページ'),
+          link: 'https://www.pref.ishikawa.lg.jp/index.html'
         }
       ]
     }

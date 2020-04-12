@@ -2,7 +2,7 @@
   <v-app class="app-print">
     <div v-if="loading" class="loader">
       <img src="/logo.png" :alt="$t('石川県')" />
-      <scale-loader color="#00A040" />
+      <scale-loader color="#0088bb" />
     </div>
     <div v-else class="print-container">
       <div class="PrintMeta">
@@ -24,7 +24,9 @@
             <p class="PrintMeta-Text">
               {{ $t('※最新の情報はWebページをご覧ください') }}
             </p>
-            <p class="PrintMeta-Link">https://stopcovid19.metro.tokyo.lg.jp/</p>
+            <p class="PrintMeta-Link">
+              https://stopcovid19-ishikawa.netlify.com
+            </p>
           </div>
         </div>
       </div>
@@ -70,7 +72,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://stopcovid19-ishikawa.netlify.com${this.$route.path}`
         }
       ]
     }
