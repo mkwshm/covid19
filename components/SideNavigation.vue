@@ -49,7 +49,7 @@
       </nav>
 
       <footer class="SideNavigation-Footer">
-        <div class="SideNavigation-Social">
+        <!-- <div class="SideNavigation-Social">
           <a
             href="https://line.me/R/ti/p/%40822sysfc"
             target="_blank"
@@ -94,7 +94,7 @@
               <img src="/github.png" alt="GitHub" />
             </picture>
           </a>
-        </div>
+        </div> -->
         <small class="SideNavigation-Copyright">
           {{ $t('このサイトの内容物は') }}
           <a
@@ -160,7 +160,7 @@ export default Vue.extend({
         {
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
-          link: 'https://https://www.pref.ishikawa.lg.jp/kansen/corona.html'
+          link: 'https://www.pref.ishikawa.lg.jp/kansen/corona.html'
         },
         {
           icon: 'mdi-domain',
@@ -192,7 +192,8 @@ export default Vue.extend({
         },
         {
           title: this.$t('お問い合わせ先一覧'),
-          link: this.localePath('/contacts')
+          link: 'https://www.pref.ishikawa.lg.jp/kansen/corona.html'
+          // link: this.localePath('/contacts')
         },
         {
           title: this.$t('石川県公式ホームページ'),
