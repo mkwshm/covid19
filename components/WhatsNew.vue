@@ -11,10 +11,10 @@
         <v-icon size="20" class="WhatsNew-link-to-emergency-page-icon">
           mdi-bullhorn
         </v-icon>
-        <external-link
+        <!-- <external-link
           url="https://www.bousai.metro.tokyo.lg.jp/1007617/index.html"
           label="東京都緊急事態措置について"
-        />
+        /> -->
       </span>
     </div>
     <ul class="WhatsNew-list">
