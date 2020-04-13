@@ -6,7 +6,7 @@ const headers = [
   { text: '年代', value: '年代' },
   { text: '性別', value: '性別' },
   { text: '退院※', value: '退院', align: 'center' },
-  { text: '備考', value: '備考'}
+  { text: '備考', value: '備考' }
 ]
 
 type DataType = {
