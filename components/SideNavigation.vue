@@ -160,7 +160,7 @@ export default Vue.extend({
         {
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
-          link: 'https://https://www.pref.ishikawa.lg.jp/kansen/corona.html'
+          link: 'https://www.pref.ishikawa.lg.jp/kansen/corona.html'
         },
         {
           icon: 'mdi-domain',
@@ -192,7 +192,8 @@ export default Vue.extend({
         },
         {
           title: this.$t('お問い合わせ先一覧'),
-          link: this.localePath('/contacts')
+          // link: this.localePath('/contacts')
+          link: 'https://www.pref.ishikawa.lg.jp/kansen/corona.html'
         },
         {
           title: this.$t('石川県公式ホームページ'),
