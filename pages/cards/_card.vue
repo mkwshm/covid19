@@ -36,6 +36,10 @@
       "
     />
     <agency-card v-else-if="this.$route.params.card == 'agency'" />
+    <patients-by-age-card
+      v-else-if="this.$route.params.card == 'patients-by-age-card'"
+    />
+    <!-- <hoken-card v-else-if="this.$route.params.card == 'hoken-card'" /> -->
   </div>
 </template>
 
@@ -43,6 +47,8 @@
 import Data from '@/data/data.json'
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
+import age from '@/data/age.json'
+// import hoken from '@/data/hoken.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
@@ -53,6 +59,8 @@ import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvi
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
+import PatientsByAgeCard from '@/components/cards/PatientsByAgeCard.vue'
+// import HokenCard from '@/components/cards/HokenCard.vue'
 
 export default {
   components: {
@@ -65,7 +73,9 @@ export default {
     TelephoneAdvisoryReportsNumberCard,
     ConsultationDeskReportsNumberCard,
     MetroCard,
-    AgencyCard
+    AgencyCard,
+    PatientsByAgeCard
+    // HokenCard,
   },
   data() {
     let title, updatedAt
@@ -109,6 +119,14 @@ export default {
       case 'agency':
         title = this.$t('都庁来庁者数の推移')
         updatedAt = agencyData.date
+        break
+      case 'patients-by-age-card':
+        title = this.$t('年代別陽性患者数')
+        updatedAt = age.last_update
+        break
+      case 'hoken-card':
+        title = this.$t('管轄保健所の状況')
+        updatedAt = hoken.date
         break
     }
 

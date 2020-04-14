@@ -15,7 +15,16 @@
         <span>{{ $t('注釈') }} </span>
       </div>
     </div>
+    <span>
+      <v-icon size="18" class="UpdatedAt">mdi-information</v-icon>
+      {{ $t('石川県からのお知らせ') }}
+    </span>
     <whats-new class="mb-4" :items="newsItems" />
+    <span>
+      <v-icon size="18" class="UpdatedAt">mdi-information</v-icon>
+      {{ $t('県内のニュース') }}
+    </span>
+    <whats-new class="mb-4" :items="netnewsItems" />
     <static-info
       class="mb-4"
       :url="localePath('/flow')"

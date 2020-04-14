@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "4\/13\/2020",
+            "url": "https://www.pref.ishikawa.lg.jp/library_documents/kjs200413.pdf",
+            "text": "石川県　緊急事態宣言について"
+        }
+        {
             "date": "4\/11\/2020",
             "text": "石川県の新型コロナ感染者情報の公開のため、東京都のサイトをもとに開発いたしました。石川県（非公式）のサイトになります。"
         }
