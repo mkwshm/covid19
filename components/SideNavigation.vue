@@ -146,28 +146,28 @@ export default Vue.extend({
           title: this.$t('石川県の最新感染動向'),
           link: this.localePath('/')
         },
-        {
-          icon: 'CovidIcon',
-          title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
-          divider: true
-        },
-        {
-          icon: 'ParentIcon',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent')
-        },
+        // {
+        // icon: 'CovidIcon',
+        // title: this.$t('新型コロナウイルス感染症が心配なときに'),
+        // link: this.localePath('/flow'),
+        // divider: true
+        // },
+        // {
+        // icon: 'ParentIcon',
+        // title: this.$t('お子様をお持ちの皆様へ'),
+        // link: this.localePath('/parent')
+        // },
         {
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
           link: 'https://www.pref.ishikawa.lg.jp/kansen/corona.html'
         },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
-          divider: true
-        },
+        // {
+        // icon: 'mdi-domain',
+        // title: this.$t('企業の皆様・はたらく皆様へ'),
+        // link: this.localePath('/worker'),
+        // divider: true
+        // },
         {
           icon: 'mdi-domain',
           title: this.$t('経営に影響を受けている事業者の皆様へ'),
