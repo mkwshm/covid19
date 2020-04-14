@@ -55,6 +55,7 @@ import WhatsNew from '@/components/WhatsNew.vue'
 import StaticInfo from '@/components/StaticInfo.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
+import NetNews from '@/data/netnews.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 // import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
@@ -89,7 +90,8 @@ export default Vue.extend({
         icon: 'mdi-chart-timeline-variant',
         title: this.$t('石川県の最新感染動向')
       },
-      newsItems: News.newsItems
+      newsItems: News.newsItems,
+      netnewsItems: NetNews.newsItems
     }
     return data
   },
