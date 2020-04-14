@@ -124,10 +124,10 @@ export default {
         title = this.$t('年代別陽性患者数')
         updatedAt = age.last_update
         break
-      case 'hoken-card':
-        title = this.$t('管轄保健所の状況')
-        updatedAt = hoken.date
-        break
+      // case 'hoken-card':
+       //  title = this.$t('管轄保健所の状況')
+        // updatedAt = hoken.date
+        // break
     }
 
     const data = {
