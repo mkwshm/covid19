@@ -21,14 +21,18 @@ import Data from '@/data/hoken.json'
 import formatGraph from '@/utils/formatGraph'
 import formatTable from '@/utils/formatHokenTable'
 import DataTable from '@/components/DataTable.vue'
+
 export default {
   components: {
     DataTable
   },
   data() {
+
     // 感染者数グラフ
     const patientsGraph = formatGraph(Data_.patients_summary.data)
+
     const hokenTable = formatTable(Data.data)
+
     const sumInfoOfPatients = {
       lText: patientsGraph[
         patientsGraph.length - 1
@@ -38,6 +42,7 @@ export default {
       }),
       unit: this.$t('人')
     }
+
     // 陽性患者の属性 ヘッダー翻訳
     for (const header of hokenTable.headers) {
       header.text =
@@ -49,6 +54,7 @@ export default {
       row['居住地'] = this.getTranslatedWording(row['居住地'])
       row['陽性患者数'] = this.getTranslatedWording(row['陽性患者数'])
     }
+
     const data = {
       Data,
       hokenTable,
@@ -65,6 +71,7 @@ export default {
         // - null
         return value
       }
+
       return this.$t(value)
     }
   }
