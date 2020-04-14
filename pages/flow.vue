@@ -7,8 +7,8 @@
       </page-header>
       <PrinterButton :wrapper-class="'Flow-PullRight'" to="/print/flow" />
     </div>
-    <!-- <div>
-      <div class="Flow-Card-Button-Wrapper">
+    <div>
+      <!-- <div class="Flow-Card-Button-Wrapper">
         <a
           href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
           target="_blank"

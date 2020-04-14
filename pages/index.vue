@@ -54,7 +54,7 @@ import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
-import StaticInfo from '@/components/StaticInfo.vue'
+// import StaticInfo from '@/components/StaticInfo.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
 import NetNews from '@/data/netnews.json'
@@ -74,7 +74,7 @@ export default Vue.extend({
   components: {
     PageHeader,
     WhatsNew,
-    StaticInfo,
+    // StaticInfo,
     ConfirmedCasesDetailsCard,
     // TestedCasesDetailsCard,
     ConfirmedCasesNumberCard,
