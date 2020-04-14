@@ -5,7 +5,7 @@
         <v-icon size="24" class="WhatsNew-title-icon">
           mdi-information
         </v-icon>
-        {{ $t('最新のお知らせ') }}
+        <!-- {{ $t('最新のお知らせ') }} -->
       </h3>
       <!-- <span class="WhatsNew-link-to-emergency-page">
         <v-icon size="20" class="WhatsNew-link-to-emergency-page-icon">
