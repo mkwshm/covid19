@@ -36,6 +36,8 @@
       <!-- <tested-cases-details-card /> -->
       <confirmed-cases-attributes-card />
       <confirmed-cases-number-card />
+      <patients-by-age-card />
+      <!-- <hoken-card /> -->
       <!-- <inspection-persons-number-card /> -->
       <!-- <tested-number-card /> -->
       <!-- <telephone-advisory-reports-number-card /> -->

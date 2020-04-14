@@ -1360,7 +1360,7 @@
         "value": 0,
         "children": [
             {
-                "attr": "陽性者数",
+                "attr": "陽性患者数",
                 "value": 131,
                 "children": [
                     {

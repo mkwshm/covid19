@@ -6,7 +6,7 @@
     <StaticCard>
       {{
         $t(
-          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+          '当サイトは石川県内における新型コロナウイルス感染症 (COVID-19) の最新情報を提供することを目的として、開設したものです。'
         )
       }}<br />
       <br />
@@ -171,7 +171,7 @@
       <p>
         {{
           $t(
-            '当サイトに掲載されている情報の正確性については万全を期していますが、東京都は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
+            '当サイトに掲載されている情報の正確性については万全を期していますが、石川県またはサイト運営者は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
           )
         }}
       </p>
@@ -194,17 +194,8 @@
       <h3>{{ $t('データについて') }}</h3>
       <i18n
         tag="p"
-        path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
+        path="本サイトで公表しているデータは、石川県の公式発表を元に編集者がまとめたものです。"
       >
-        <template v-slot:catalogWebsite>
-          <a
-            href="https://portal.data.metro.tokyo.lg.jp/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {{ $t('東京都オープンデータカタログサイト') }}
-          </a>
-        </template>
       </i18n>
     </StaticCard>
     <StaticCard>
@@ -218,7 +209,7 @@
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <template v-slot:githubRepo>
             <a
-              href="https://github.com/tokyo-metropolitan-gov/covid19"
+              href="https://github.com/mkwshm/covid19"
               target="_blank"
               rel="noopener noreferrer"
             >
