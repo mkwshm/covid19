@@ -27,7 +27,6 @@ export default {
     DataTable
   },
   data() {
-
     // 感染者数グラフ
     const patientsGraph = formatGraph(Data_.patients_summary.data)
 

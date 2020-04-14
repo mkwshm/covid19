@@ -125,9 +125,9 @@ export default {
         updatedAt = age.last_update
         break
       // case 'hoken-card':
-       //  title = this.$t('管轄保健所の状況')
-        // updatedAt = hoken.date
-        // break
+      // title = this.$t('管轄保健所の状況')
+    　// updatedAt = hoken.date
+    　// break
     }
 
     const data = {
