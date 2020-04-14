@@ -196,6 +196,15 @@
         tag="p"
         path="本サイトで公表しているデータは、石川県の公式発表を元に編集者がまとめたものです。"
       >
+        <template v-slot:catalogWebsite>
+          <a
+            href="https://www.pref.nagano.lg.jp/joho/kensei/tokei/johoka/opendata/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $t('長野県オープンデータカタログサイト') }}
+          </a>
+        </template>
       </i18n>
     </StaticCard>
     <StaticCard>
