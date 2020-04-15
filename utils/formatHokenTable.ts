@@ -3,7 +3,7 @@
 const headers = [
   { text: '更新日', value: '更新日' },
   { text: '居住地', value: '居住地' },
-  { text: '人数', value: '人数' },
+  { text: '人数', value: '人数' }
 ]
 
 type DataType = {

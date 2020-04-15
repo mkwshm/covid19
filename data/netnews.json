@@ -1,9 +1,14 @@
 {
     "newsItems": [
         {
+            "date": "4\/15\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200415/k10012388891000.html",
+            "text": "金沢 60代男性死亡 石川県内新たに９人感染確認 新型コロナ (NHK NEWS WEB)"
+        },
+        {
             "date": "4\/14\/2020",
             "url": "https://www3.nhk.or.jp/news/html/20200414/k10012386651000.html",
-            "text": "石川県で３人死亡 初の死者 新型コロナウイルス  (NHK NEWS WEB)"
+            "text": "石川県で３人死亡 初の死者 新型コロナウイルス (NHK NEWS WEB)"
         },
         {
             "date": "4\/13\/2020",
