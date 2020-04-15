@@ -1,12 +1,12 @@
 <template>
   <div class="WhatsNew">
     <div class="WhatsNew-heading">
-      <h3 class="WhatsNew-title">
+      <!-- <h3 class="WhatsNew-title">
         <v-icon size="24" class="WhatsNew-title-icon">
           mdi-information
         </v-icon>
-        <!-- {{ $t('最新のお知らせ') }} -->
-      </h3>
+        {{ $t('最新のお知らせ') }}
+      </h3> -->
       <!-- <span class="WhatsNew-link-to-emergency-page">
         <v-icon size="20" class="WhatsNew-link-to-emergency-page-icon">
           mdi-bullhorn
