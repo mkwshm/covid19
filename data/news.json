@@ -1,19 +1,13 @@
 {
     "newsItems": [
         {
-            "date": "2020\/04\/08",
-            "url": "https:\/\/tokyodouga.jp\/100000\/100700\/100798\/list.html",
-            "text": "[最新情報動画] 知事から都民の皆様へ (4\/8)"
+            "date": "4\/13\/2020",
+            "url": "https://www.pref.ishikawa.lg.jp/library_documents/kjs200413.pdf",
+            "text": "石川県　緊急事態宣言について"
         },
         {
-            "date": "2020\/04\/08",
-            "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/taisaku\/saigai\/1007261\/1007637.html",
-            "text": "(170報)新型コロナウイルスに関連した患者の発生について"
-        },
-        {
-            "date": "2020\/04\/08",
-            "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/oshirase\/corona_0401.html",
-            "text": "新型コロナウイルス感染症で これから入院される方へ"
+            "date": "4\/11\/2020",
+            "text": "石川県の新型コロナ感染者情報の公開のため、東京都のサイトをもとに開発いたしました。石川県（非公式）のサイトになります。"
         }
     ]
 }

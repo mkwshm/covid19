@@ -1,8 +1,10 @@
 export default {
   strategy: 'prefix_except_default',
   detectBrowserLanguage: {
+    /*
     useCookie: true,
     cookieKey: 'i18n_redirected'
+    */
   },
   defaultLocale: 'ja',
   vueI18n: {
@@ -19,7 +21,8 @@ export default {
       iso: 'ja-JP',
       file: 'ja.json',
       description: 'Japanese'
-    },
+    }
+    /*
     {
       code: 'en',
       name: 'English',
@@ -47,7 +50,7 @@ export default {
       iso: 'ko-KR',
       file: 'ko.json',
       description: 'Korean'
-    },
+    }, */
     // #1126, #872 (comment)
     // ポルトガル語は訳が揃っていないため非表示
     // {
@@ -57,12 +60,13 @@ export default {
     //   file: 'pt_BR.json',
     //   description: 'Portuguese'
     // },
-    {
+    /* {
       code: 'ja-basic',
       name: 'やさしい にほんご',
       iso: 'ja-JP',
       file: 'ja-Hira.json',
       description: 'Easy Japanese'
     }
+    */
   ]
 }

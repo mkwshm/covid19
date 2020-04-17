@@ -36,6 +36,10 @@
       "
     />
     <agency-card v-else-if="this.$route.params.card == 'agency'" />
+    <patients-by-age-card
+      v-else-if="this.$route.params.card == 'patients-by-age-card'"
+    />
+    <!-- <hoken-card v-else-if="this.$route.params.card == 'hoken-card'" /> -->
   </div>
 </template>
 
@@ -43,6 +47,8 @@
 import Data from '@/data/data.json'
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
+import age from '@/data/age.json'
+// import hoken from '@/data/hoken.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
@@ -53,6 +59,8 @@ import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvi
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
+import PatientsByAgeCard from '@/components/cards/PatientsByAgeCard.vue'
+// import HokenCard from '@/components/cards/HokenCard.vue'
 
 export default {
   components: {
@@ -65,7 +73,9 @@ export default {
     TelephoneAdvisoryReportsNumberCard,
     ConsultationDeskReportsNumberCard,
     MetroCard,
-    AgencyCard
+    AgencyCard,
+    PatientsByAgeCard
+    // HokenCard,
   },
   data() {
     let title, updatedAt
@@ -110,6 +120,14 @@ export default {
         title = this.$t('都庁来庁者数の推移')
         updatedAt = agencyData.date
         break
+      case 'patients-by-age-card':
+        title = this.$t('年代別陽性患者数')
+        updatedAt = age.last_update
+        break
+      // case 'hoken-card':
+      // title = this.$t('管轄保健所の状況')
+      // updatedAt = hoken.date
+      // break
     }
 
     const data = {
@@ -119,14 +137,14 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19.metro.tokyo.lg.jp'
+    const url = 'https://stopcovid19-ishikawa.netlify.com'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'
         ? `${url}/ogp/${this.$route.params.card}.png?t=${timestamp}`
         : `${url}/ogp/${this.$i18n.locale}/${this.$route.params.card}.png?t=${timestamp}`
     const description = `${this.updatedAt} | ${this.$t(
-      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、有志が開設したものです。'
     )}`
 
     return {
@@ -143,7 +161,7 @@ export default {
           content:
             this.title +
             ' | ' +
-            this.$t('東京都') +
+            this.$t('石川県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             this.$t('対策サイト')

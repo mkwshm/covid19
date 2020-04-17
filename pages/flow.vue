@@ -8,7 +8,7 @@
       <PrinterButton :wrapper-class="'Flow-PullRight'" to="/print/flow" />
     </div>
     <div>
-      <div class="Flow-Card-Button-Wrapper">
+      <!-- <div class="Flow-Card-Button-Wrapper">
         <a
           href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
           target="_blank"
@@ -24,7 +24,7 @@
             mdi-open-in-new
           </v-icon>
         </a>
-      </div>
+      </div> -->
       <div class="only-pc" aria-hidden="true">
         <flow-pc />
       </div>
