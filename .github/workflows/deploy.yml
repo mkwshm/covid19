@@ -1,35 +1,47 @@
-name: production deploy
+name: Deploy
 
 on:
   push:
     branches:
       - master
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Node
+      - name: Setup node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '10.x'
+          node-version: "10.x"
+
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          path: ~/.cache/yarn
+          path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - run: yarn install --frozen-lockfile
-      - run: yarn run test
-      - run: yarn run generate:production --fail-on-page-error
+      - name: Install
+        run: yarn install
 
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Build site
+        run: yarn generate:deploy
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: production
+          publish-dir: "./dist"
+          production-branch: master
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
