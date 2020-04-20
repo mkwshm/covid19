@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "4\/19\/2020",
+            "url": "https://www.pref.ishikawa.lg.jp/kikaku/kinkyujitaisoti.html",
+            "text": "石川県　緊急事態措置"
+        },
+        {
+            "date": "4\/19\/2020",
+            "url": "https://www.pref.ishikawa.lg.jp/kinyuu/keieishien/kansenkakudaibousikyouryokukin.html",
+            "text": "石川県新型コロナウイルス感染拡大防止協力金について"
+        },
+        {
             "date": "4\/13\/2020",
             "url": "https://www.pref.ishikawa.lg.jp/library_documents/kjs200413.pdf",
             "text": "石川県　緊急事態宣言について"
