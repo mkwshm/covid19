@@ -84,7 +84,7 @@ export default Vue.extend({
     ConfirmedCasesAttributesCard,
     AgeCard,
     HokenCard
-    TestedNumberCard,
+    TestedNumberCard
     // InspectionPersonsNumberCard
     // TelephoneAdvisoryReportsNumberCard,
     // ConsultationDeskReportsNumberCard,
