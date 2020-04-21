@@ -8,7 +8,7 @@
       :date="Data.date"
       :info="sumInfoOfPatients"
       :url="
-        'https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/corona-doko.html'
+        'https://www.pref.ishikawa.lg.jp/kansen/coronakennai.html'
       "
       :source="$t('オープンデータを入手')"
     />
