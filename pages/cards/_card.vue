@@ -123,7 +123,7 @@ export default {
         title = this.$t('都庁来庁者数の推移')
         updatedAt = agencyData.date
         break
-      case 'card':
+      case 'age-card':
         title = this.$t('年代別陽性患者数')
         updatedAt = age.last_update
         break
