@@ -68,6 +68,8 @@ import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttri
 // import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 // import MetroCard from '@/components/cards/MetroCard.vue'
 // import AgencyCard from '@/components/cards/AgencyCard.vue'
+import AgeCard from '@/components/cards/AgeCard.vue'
+import HokenCard from '@/components/cards/HokenCard.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
 export default Vue.extend({
@@ -78,12 +80,14 @@ export default Vue.extend({
     ConfirmedCasesDetailsCard,
     // TestedCasesDetailsCard,
     ConfirmedCasesNumberCard,
-    ConfirmedCasesAttributesCard
+    ConfirmedCasesAttributesCard,
+    AgeCard,
+    HokenCard,
     // TestedNumberCard,InspectionPersonsNumberCard,
     // TelephoneAdvisoryReportsNumberCard,
     // ConsultationDeskReportsNumberCard,
     // MetroCard,
-    // AgencyCard
+    // AgencyCard,
   },
   data() {
     const data = {

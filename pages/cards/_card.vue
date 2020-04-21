@@ -39,7 +39,8 @@
     <patients-by-age-card
       v-else-if="this.$route.params.card == 'patients-by-age-card'"
     />
-    <!-- <hoken-card v-else-if="this.$route.params.card == 'hoken-card'" /> -->
+    <age-card v-else-if="this.$route.params.card == 'age-card'" />
+    <hoken-card v-else-if="this.$route.params.card == 'hoken-card'" />
   </div>
 </template>
 
@@ -48,7 +49,7 @@ import Data from '@/data/data.json'
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
 import age from '@/data/age.json'
-// import hoken from '@/data/hoken.json'
+import hoken from '@/data/hoken.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
@@ -60,7 +61,8 @@ import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDe
 import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
 import PatientsByAgeCard from '@/components/cards/PatientsByAgeCard.vue'
-// import HokenCard from '@/components/cards/HokenCard.vue'
+import AgeCard from '@/components/cards/AgeCard.vue'
+import HokenCard from '@/components/cards/HokenCard.vue'
 
 export default {
   components: {
@@ -74,8 +76,9 @@ export default {
     ConsultationDeskReportsNumberCard,
     MetroCard,
     AgencyCard,
-    PatientsByAgeCard
-    // HokenCard,
+    PatientsByAgeCard,
+    AgeCard,
+    HokenCard
   },
   data() {
     let title, updatedAt
@@ -120,14 +123,14 @@ export default {
         title = this.$t('都庁来庁者数の推移')
         updatedAt = agencyData.date
         break
-      case 'patients-by-age-card':
+      case 'card':
         title = this.$t('年代別陽性患者数')
         updatedAt = age.last_update
         break
-      // case 'hoken-card':
-      // title = this.$t('管轄保健所の状況')
-      // updatedAt = hoken.date
-      // break
+      case 'hoken-card':
+        title = this.$t('管轄保健所の状況')
+        updatedAt = hoken.date
+        break
     }
 
     const data = {
