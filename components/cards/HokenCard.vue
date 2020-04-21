@@ -7,9 +7,7 @@
       :chart-option="{}"
       :date="Data.date"
       :info="sumInfoOfPatients"
-      :url="
-        'https://www.pref.ishikawa.lg.jp/kansen/coronakennai.html'
-      "
+      :url="'https://www.pref.ishikawa.lg.jp/kansen/coronakennai.html'"
       :source="$t('オープンデータを入手')"
     />
   </v-col>
