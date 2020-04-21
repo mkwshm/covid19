@@ -43,7 +43,7 @@
       <!-- <consultation-desk-reports-number-card /> -->
       <!-- <metro-card /> -->
       <!-- <agency-card /> -->
-      <age-card />
+      <!-- <age-card /> -->
       <hoken-card />
     </v-row>
     <v-divider />
@@ -69,7 +69,7 @@ import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 // import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 // import MetroCard from '@/components/cards/MetroCard.vue'
 // import AgencyCard from '@/components/cards/AgencyCard.vue'
-import AgeCard from '@/components/cards/AgeCard.vue'
+// import AgeCard from '@/components/cards/AgeCard.vue'
 import HokenCard from '@/components/cards/HokenCard.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
@@ -82,7 +82,7 @@ export default Vue.extend({
     // TestedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
-    AgeCard,
+    // AgeCard,
     HokenCard,
     TestedNumberCard
     // InspectionPersonsNumberCard

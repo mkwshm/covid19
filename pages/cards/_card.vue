@@ -61,7 +61,7 @@ import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDe
 import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
 import PatientsByAgeCard from '@/components/cards/PatientsByAgeCard.vue'
-import AgeCard from '@/components/cards/AgeCard.vue'
+// import AgeCard from '@/components/cards/AgeCard.vue'
 import HokenCard from '@/components/cards/HokenCard.vue'
 
 export default {
@@ -77,7 +77,7 @@ export default {
     MetroCard,
     AgencyCard,
     PatientsByAgeCard,
-    AgeCard,
+    // AgeCard,
     HokenCard
   },
   data() {
