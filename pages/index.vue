@@ -36,14 +36,15 @@
       <!-- <tested-cases-details-card /> -->
       <confirmed-cases-attributes-card />
       <confirmed-cases-number-card />
-      <patients-by-age-card />
-      <!-- <hoken-card /> -->
-      <!-- <inspection-persons-number-card /> -->
+      <!-- <patients-by-age-card /> -->
+      <inspection-persons-number-card />
       <!-- <tested-number-card /> -->
       <!-- <telephone-advisory-reports-number-card /> -->
       <!-- <consultation-desk-reports-number-card /> -->
       <!-- <metro-card /> -->
       <!-- <agency-card /> -->
+      <age-card />
+      <hoken-card />
     </v-row>
     <v-divider />
   </div>
@@ -63,7 +64,7 @@ import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsC
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 // import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
-// import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
+import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
 // import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 // import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 // import MetroCard from '@/components/cards/MetroCard.vue'
