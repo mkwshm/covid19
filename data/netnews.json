@@ -1,9 +1,14 @@
 {
     "newsItems": [
         {
+            "date": "4\/22\/2020",
+            "url": "https://www.fnn.jp/articles/-/35219",
+            "text": "10歳未満の男の子も感染…石川県で新たに男女6人が新型コロナ陽性 県内感染者199人に (FNN PRIME)"
+        },
+        {
             "date": "4\/21\/2020",
             "url": "https://www3.nhk.or.jp/news/html/20200421/k10012398881000.html",
-            "text": "石川県 新型コロナ感染の１人が死亡 新たに12人の感染確認  (NHK NEWS WEB)"
+            "text": "石川県 新型コロナ感染の１人が死亡 新たに12人の感染確認 (NHK NEWS WEB)"
         },
         {
             "date": "4\/20\/2020",
