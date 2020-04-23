@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "4\/23\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200423/k10012401551000.html",
+            "text": "石川 かほく 入院患者15人感染 院内感染で調査へ 新型コロナ (NHK NEWS WEB)"
+        },
+        {
+            "date": "4\/23\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200423/k10012401551000.html",
+            "text": "石川 かほく 入院患者15人感染 院内感染で調査へ 新型コロナ (NHK NEWS WEB)"
+        },
+        {
             "date": "4\/22\/2020",
             "url": "https://www.fnn.jp/articles/-/35219",
             "text": "10歳未満の男の子も感染…石川県で新たに男女6人が新型コロナ陽性 県内感染者199人に (FNN PRIME)"
@@ -20,20 +30,6 @@
             "url": "https://www3.nhk.or.jp/news/html/20200420/k10012396111000.html",
             "text": "石川県 21日から休業要請へ 知事「ぜひ協力してほしい」 (NHK NEWS WEB)"
         },
-        {
-            "date": "4\/19\/2020",
-            "url": "https://www.fnn.jp/articles/-/34068",
-            "text": "初めて感染者出た自治体も…新型コロナ 石川で40-80代男女5人陽性確認 県内感染者178人 (FNN PRIME)"
-        },
-        {
-            "date": "4\/19\/2020",
-            "url": "https://www3.nhk.or.jp/news/html/20200419/k10012395561000.html",
-            "text": "石川県 あさってから休業要請 バーやカラオケボックスなど対象 (NHK NEWS WEB)"
-        },
-        {
-            "date": "4\/18\/2020",
-            "url": "https://www.fnn.jp/articles/-/33882",
-            "text": "感染者“2ケタ増”続く…石川で13人新型コロナ陽性 金沢等の30-80代男女で県内173人に (FNN PRIME)"
-        }
+
     ]
 }
