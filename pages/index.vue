@@ -38,9 +38,9 @@
       <confirmed-cases-number-card />
       <!-- <patients-by-age-card /> -->
       <!-- <inspection-persons-number-card /> -->
-      <!-- <tested-number-card /> -->
-      <!-- <telephone-advisory-reports-number-card /> -->
-      <!-- <consultation-desk-reports-number-card /> -->
+      <tested-number-card />
+      <telephone-advisory-reports-number-card />
+      <consultation-desk-reports-number-card />
       <!-- <metro-card /> -->
       <!-- <agency-card /> -->
       <!-- <age-card /> -->
