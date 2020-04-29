@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "4\/26\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200426/k10012406601000.html",
+            "text": "石川県 新たに３人感染確認 新型コロナウイルス (NHK NEWS WEB)"
+        },
+        {
+            "date": "4\/25\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200423/k10012401551000.html",
+            "text": "1人は“重症”…石川で新たに2人が新型コロナ感染 80代男性と90代女性 県内感染者224人 (FNN PRIME)"
+        },
+        {
+            "date": "4\/25\/2020",
+            "url": "https://www.asahi.com/articles/ASN4T65H6N4TPISC010.html",
+            "text": "石川 かほく 入院患者15人感染 院内感染で調査へ 新型コロナ (朝日新聞 DIGITAL)"
+        },
+        {
             "date": "4\/24\/2020",
             "url": "https://www3.nhk.or.jp/news/html/20200423/k10012401551000.html",
             "text": "“新型コロナ” 石川で新たに6人の感染を確認 金沢や小松などの男女で県内感染者数は222人に (FNN PRIME)"
