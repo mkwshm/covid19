@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "4\/30\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200430/k10012412051000.html",
+            "text": "石川 県立高校などの休校を延長 再開は６月１日に 新型コロナ (NHK NEWS WEB)"
+        },
+        {
+            "date": "4\/30\/2020",
+            "url": "https://www.asahi.com/articles/ASN4Z62G9N4ZPISC01S.html",
+            "text": "石川県白山市で80代男性感染　県内感染者は251人に (朝日新聞 DIGITAL)"
+        },
+        {
             "date": "4\/29\/2020",
             "url": "https://www3.nhk.or.jp/news/html/20200429/k10012410721000.html",
             "text": "石川 新たに２人死亡 県内死者計８人に 新型コロナウイルス (NHK NEWS WEB)"
@@ -9,16 +19,6 @@
             "date": "4\/29\/2020",
             "url": "https://www3.nhk.or.jp/news/html/20200429/k10012410721000.html",
             "text": "石川で1人感染、2人死亡　県内死者8人に　新型コロナ (朝日新聞 DIGITAL)"
-        },
-        {
-            "date": "4\/28\/2020",
-            "url": "https://www.fnn.jp/articles/-/37281",
-            "text": "県内感染者『245人』に…石川県で新たに男女4人の“新型コロナ”感染を確認 いずれも軽症 (FNN PRIME)"
-        },
-        {
-            "date": "4\/27\/2020",
-            "url": "https://www3.nhk.or.jp/news/html/20200427/k10012407531000.html",
-            "text": "石川県 １人死亡 新たに１人感染確認 県内236人に 新型コロナ (NHK NEWS WEB)"
         }
     ]
 }
