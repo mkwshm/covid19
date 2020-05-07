@@ -1,6 +1,26 @@
 {
     "newsItems": [
         {
+            "date": "5\/3\/2020",
+            "url": "https://www.fnn.jp/articles/-/38946",
+            "text": "連日の死者…60代と80代の新型コロナ感染者が死亡 石川で死者15人 新たな感染者4人も確認 (FNN PRIME) "
+        },
+        {
+            "date": "5\/3\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200503/k10012416581000.html",
+            "text": "石川 ２人死亡 県内の死者15人に 新型コロナウイルス (NHK NEWS WEB) "
+        },
+        {
+            "date": "5\/2\/2020",
+            "url": "https://www3.nhk.or.jp/news/html/20200502/k10012415671000.html",
+            "text": "石川 新型コロナで２人死亡 ６人感染確認 計260人に (NHK NEWS WEB) "
+        },
+        {
+            "date": "5\/2\/2020",
+            "url": "https://www.fnn.jp/articles/-/38766",
+            "text": "新型コロナ感染者2人が死亡…石川県内の死者13人に 新たに30-80代の男女6人の感染も確認 (FNN PRIME) "
+        },
+        {
             "date": "4\/30\/2020",
             "url": "https://www3.nhk.or.jp/news/html/20200430/k10012412051000.html",
             "text": "石川 県立高校などの休校を延長 再開は６月１日に 新型コロナ (NHK NEWS WEB)"
