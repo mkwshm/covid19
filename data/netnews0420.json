@@ -1,6 +1,26 @@
 {
     "newsItems": [
         {
+            "date": "5\/7\/2020",
+            "url": "https://www.fukuishimbun.co.jp/articles/-/1081671",
+            "text": "石川県かほく市の二ツ屋病院で新たに新型コロナ4人感染 (福井新聞) "
+        },
+        {
+            "date": "5\/6\/2020",
+            "url": "https://www.asahi.com/articles/ASN565WVVN56PISC003.html",
+            "text": "石川県で中学教員ら3人の感染確認 (朝日新聞 DIGITAL) "
+        },
+        {
+            "date": "5\/5\/2020",
+            "url": "https://www.fukuishimbun.co.jp/articles/-/1080914l",
+            "text": "石川県の70代男性、新型コロナ感染 (福井新聞) "
+        },
+        {
+            "date": "5\/4\/2020",
+            "url": "https://www.nikkei.com/article/DGXMZO58779180U0A500C2LB0000/",
+            "text": "石川県、31日まで休業要請を延長　追加の協力金はなし (日本経済新聞) "
+        },
+        {
             "date": "5\/3\/2020",
             "url": "https://www.fnn.jp/articles/-/38946",
             "text": "連日の死者…60代と80代の新型コロナ感染者が死亡 石川で死者15人 新たな感染者4人も確認 (FNN PRIME) "
